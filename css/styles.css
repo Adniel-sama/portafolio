@@ -1,0 +1,35 @@
+:root{
+  --font-sans: "Century Gothic", "Montserrat", Arial, sans-serif;
+  --font-serif: "Garamond", "EB Garamond", Georgia, serif;
+}
+
+/* Tipografías */
+body { font-family: var(--font-sans); }
+.serif, h1, h2, h3, h4, h5, h6 { font-family: var(--font-serif); }
+
+/* Header */
+.header-grad{
+  background: linear-gradient(135deg, #000 0%, #3d3d3d 100%);
+}
+
+/* Imágenes en escala de grises */
+.grayscale { filter: grayscale(50%); }
+
+/* Tarjetas suavemente animadas */
+.card { transition: transform .18s ease, box-shadow .18s ease; }
+.card:hover { transform: translateY(-6px); box-shadow: 0 10px 30px rgba(0,0,0,0.12); }
+
+/* Enlaces */
+a.text-dark:hover { color: #212121; text-decoration: none; }
+
+/* Botón seleccionado */
+.filter-btn.active {
+  background: #000 !important;
+  color: #fff !important;
+  border-color: #000 !important;
+}
+
+/* Ajuste mobile */
+@media (max-width: 576px){
+  .display-5 { font-size: 1.6rem; }
+}
