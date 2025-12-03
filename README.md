@@ -13,3 +13,6 @@ Agrega el trabajo final del módulo 4 "gestor_biblioteca" al portafolio, se ven 
 
 ## Evaluación portafolio módulo 5
 Agrega el trabajo final del módulo 5, base de datos de una empresa de ventas, JOINS, SELECTS, COMMIT, ROLLBACK, etc...
+
+## Evaluación portafolio módulo 6
+Agrega el trabajo final del módulo 6, "Gestor de tareas", configuración de settings.py, urls.py, uso de templates, usuarios, etc...
