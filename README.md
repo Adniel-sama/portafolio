@@ -7,3 +7,6 @@ Archivos preparados: `index.html`, `css/styles.css`, `js/script.js`, carpeta `im
 
 ## Evaluación portafolio módulo 3
 Agrega el trabajo final del módulo 3 al portafolio como card.
+
+## Evaluación portafolio módulo 3
+Agrega el trabajo final del módulo 4 "gestor_biblioteca" al portafolio, se ven cosas como POO, manejo de errores, etc...
