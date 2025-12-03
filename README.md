@@ -16,3 +16,6 @@ Agrega el trabajo final del módulo 5, base de datos de una empresa de ventas, J
 
 ## Evaluación portafolio módulo 6
 Agrega el trabajo final del módulo 6, "Gestor de tareas", configuración de settings.py, urls.py, uso de templates, usuarios, etc...
+
+## Evaluación portafolio módulo 7
+Agrega el trabajo final del módulo 7, "Inventario", configuración de settings.py, urls.py, uso de templates, admin, conexión bases de datos, paths, etc...
