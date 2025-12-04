@@ -20,7 +20,7 @@
 
 <nav class="navbar navbar-expand-lg navbar-light bg-white border-bottom">
   <div class="container">
-    <a class="navbar-brand fw-semibold text-dark" href="#">Daniel C.</a>
+    <a class="navbar-brand text-dark" href="#"> Daniel C.</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -50,14 +50,16 @@
         <button class="btn btn-outline-dark btn-sm filter-btn active" data-filter="all">Todos</button>
         <button class="btn btn-outline-dark btn-sm filter-btn" data-filter="python">Python</button>
         <button class="btn btn-outline-dark btn-sm filter-btn" data-filter="web">Web</button>
-        <button class="btn btn-outline-dark btn-sm filter-btn" data-filter="data">Data</button>
+        <button class="btn btn-outline-dark btn-sm filter-btn" data-filter="JS">JS</button>
+        <button class="btn btn-outline-dark btn-sm filter-btn" data-filter="SQL">SQL</button>
+        <button class="btn btn-outline-dark btn-sm filter-btn" data-filter="django">django</button>
       </div>
     </div>
 
     <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4" id="projects-grid">
 
       <!-- Tarjeta M3-->
-      <div class="col project-card" data-tags="python web">
+      <div class="col project-card" data-tags="python">
         <div class="card h-100 border-0 shadow-sm">
           <img src="img/modulo_3.png" class="card-img-top grayscale img-fluid" alt="Proyecto 1 screenshot">
           <div class="card-body d-flex flex-column">
@@ -80,7 +82,7 @@
       </div>
 
       <!-- Tarjeta M4-->
-      <div class="col project-card" data-tags="python web">
+      <div class="col project-card" data-tags="python">
         <div class="card h-100 border-0 shadow-sm">
           <img src="img/modulo_4.png" class="card-img-top grayscale img-fluid" alt="Proyecto 1 screenshot">
           <div class="card-body d-flex flex-column">
@@ -103,7 +105,7 @@
       </div>
 
       <!-- Tarjeta M5-->
-      <div class="col project-card" data-tags="python web">
+      <div class="col project-card" data-tags="SQL">
         <div class="card h-100 border-0 shadow-sm">
           <img src="img/modulo_5.png" class="card-img-top grayscale img-fluid" alt="Proyecto 1 screenshot">
           <div class="card-body d-flex flex-column">
@@ -126,7 +128,7 @@
       </div>
 
       <!-- Tarjeta M6-->
-      <div class="col project-card" data-tags="python web">
+      <div class="col project-card" data-tags="python web django">
         <div class="card h-100 border-0 shadow-sm">
           <img src="img/modulo_6.png" class="card-img-top grayscale img-fluid" alt="Proyecto 1 screenshot">
           <div class="card-body d-flex flex-column">
@@ -149,7 +151,7 @@
       </div>
 
       <!-- Tarjeta M7-->
-      <div class="col project-card" data-tags="python web">
+      <div class="col project-card" data-tags="python web django">
         <div class="card h-100 border-0 shadow-sm">
           <img src="img/modulo_7.png" class="card-img-top grayscale img-fluid" alt="Proyecto 1 screenshot">
           <div class="card-body d-flex flex-column">
@@ -162,6 +164,29 @@
                       data-bs-target="#projectModal"
                       data-title="Proyecto M7: Inventario, Django<"
                       data-desc="Este proyecto es una aplicación de inventario desarrollada con Django, organizada en vistas basadas en clases para gestionar productos y categorías. Utiliza formularios (Forms y ModelForms) para crear y editar registros de manera validada. La autenticación de usuarios controla el acceso a las operaciones principales del sistema. La base de datos está gestionada mediante MySQL, configurada a través del ORM de Django para manejar modelos y migraciones. También incluye templates con herencia y mensajes integrados con el sistema de django.contrib.messages. El proyecto aplica buenas prácticas de arquitectura, separación en apps y manejo de rutas mediante path()"
+                      data-image="img/modulo_7.png"
+                      data-repo="https://github.com/Adniel-sama/M7_evaluacion_modulo">
+                Ver detalles
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Tarjeta Proyecto final-->
+      <div class="col project-card" data-tags="python web django SQL JS">
+        <div class="card h-100 border-0 shadow-sm">
+          <img src="img/modulo_8.png" class="card-img-top grayscale img-fluid" alt="Proyecto 1 screenshot">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">Proyecto final: lugares de estudio</h5>
+            <p class="card-text text-muted small"> Este proyecto es una aplicación web desarrollada con Django 6 que permite a los usuarios gestionar y explorar lugares de estudio, crear listas personalizadas y escribir reseñas sobre los lugares que visitan. </p>
+            <div class="mt-auto d-flex justify-content-between align-items-center">
+              <a href="https://github.com/Adniel-sama/M7_evaluacion_modulo" target="_blank" class="btn btn-dark btn-sm">Ver repositorio</a>
+              <button class="btn btn-outline-dark btn-sm"
+                      data-bs-toggle="modal"
+                      data-bs-target="#projectModal"
+                      data-title="Proyecto M7: Inventario, Django<"
+                      data-desc="Este proyecto es una aplicación web para gestionar y explorar, permite a los usuarios registrar lugares, añadir reseñas, asignar calificaciones y etiquetar los espacios según sus características, con el objetivo de que se puedan compartir experiencias e información, de manera que se puedan encontrar los lugares más adecuados para cada persona. Los usuarios pueden visualizar información detallada, filtrar por etiquetas (para lo cual tienen total libertad, quizá demasiada) y ver estadísticas agregadas de calificaciones."
                       data-image="img/modulo_7.png"
                       data-repo="https://github.com/Adniel-sama/M7_evaluacion_modulo">
                 Ver detalles
@@ -200,7 +225,7 @@
 
   <section id="contacto" class="mt-5 mb-5">
     <h2 class="h4 serif">Contacto</h2>
-    <p class="text-muted">Email: <a class="text-dark" href="mailto:tu@email.cl">correo@email.cl</a></p>
+    <p class="text-muted">Email: <a class="text-dark" href="mailto:tu@email.cl">daniel.cifuentes.b@gmail.com</a></p>
   </section>
 
 </main>
